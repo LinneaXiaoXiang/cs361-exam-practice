@@ -1,6 +1,6 @@
 # CS 361 Exam Practice
 
-class Thang
+class Cuboid
   def initialize(x, y, b)
     @width = x
     @height = y
@@ -13,5 +13,5 @@ class Thang
   end
 end
 
-cube = Thang.new(10, 20, 30)
+cube = Cuboid.new(10, 20, 30)
 puts cube.volume
